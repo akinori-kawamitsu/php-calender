@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+:root {
+    word-break: auto-phrase;
+}
+.container {
+    width: 100%;
+    max-width: 980px;
+}
+.calender {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid #AAA;
+}
+.week-title {
+    text-align: center;
+}
+.datebox {
+    border: 1px solid #AAA;
+}
+.calenderinfo {
+    word-break: break-all;
+}
+.date {
+    text-align: center;
+}
+.week-0 {
+    background-color: #FDD;
+}
+.week-6 {
+    background-color: #DDF;
+}
+.today {
+    background-color: #DFD;
+}
